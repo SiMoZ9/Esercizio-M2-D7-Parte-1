@@ -133,7 +133,7 @@ function search(title, loc) {
   let count = 0;
   
   title = title.toLowerCase()
-  if (title.length > 0 && title.length < 3) {
+  if (title.length > 0 && title.length < 2) {
     console.log("Minimo 3 caratteri")
     return -1
   }
